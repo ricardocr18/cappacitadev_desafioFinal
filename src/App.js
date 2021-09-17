@@ -15,14 +15,14 @@ export default() => {
     const loadAll = async () => {
       // PEgando a lista TOTAL
       let list = await Tmdb.getHomeList();
-      setMovieList(list);
+      setMovieList(list); // aqui pegamos a listado movielist
 
       //pegando o Featured, pegando os filmes da categora Original  
       let originals =  list.filter(i=> i.slug === 'originals');
       let randomChosen = Math.floor(Math.random() * (originals[0].items.results.length - 1));
       let chosen = originals[0].items.results[randomChosen];
       let chosenInfo = await Tmdb.getMovieInfo(chosen.id, 'tv');
-      setFeaturedData(chosenInfo);      
+      setFeaturedData(chosenInfo);     // aqui pegamos os destaques 
     }
 
     loadAll();
@@ -58,6 +58,14 @@ export default() => {
           </div>
         ))}
       </section>
-    </div>
+
+      {movieList.length <= 0 &&
+        <div className='loading'>
+          <img src='https://media.filmelier.com/noticias/br/2020/03/Netflix_LoadTime.gif' alt='Carregando Netflix'/>            
+        </div>
+      }
+    </div>      
+
+
   );
 }
