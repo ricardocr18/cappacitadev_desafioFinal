@@ -7,7 +7,7 @@ body {
 }
 
 body.bg_filmes{
-    background-image: url(assets/background.jpg);
+    background-image: url('./src/assets/background.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

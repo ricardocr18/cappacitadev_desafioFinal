@@ -1,7 +1,8 @@
+//Arquivo responsavel para realizar nossas rotas
 import React from 'react';
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
-import Login from './pages/Login';
+import Login from './pages/login/Home';
 import Home from './pages/Home';
 
 const Routes = () => {
