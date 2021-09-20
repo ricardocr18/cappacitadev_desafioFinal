@@ -12,4 +12,6 @@ Com base em todo o conhecimento adquirido em nosso curso #CappacitaDev, você pr
 - npm install cors;
 - npx create-react-app
 
-Após fazer o download da aplicação digitar *npm start* para que a aplicação seja iniciada no http://localhost:3000
+Após fazer o download da aplicação digitar *npm start* no terminal para que a aplicação seja iniciada no http://localhost:3000
+
+![site](https://user-images.githubusercontent.com/78267457/133951294-b6ea817e-a78e-4113-a54a-cf76a0f78852.png)
