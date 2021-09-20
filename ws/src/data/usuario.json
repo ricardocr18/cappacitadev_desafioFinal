@@ -1,0 +1,19 @@
+[
+    {
+        "nome": "Maria das Dores",
+        "email": "maria@teste.com.br",
+        "senha": "123"
+    },
+
+    {
+        "nome": "Jorge Jesus",
+        "email": "jesus@teste.com.br",
+        "senha": "123"
+    },
+
+    {
+        "nome": "Tereza Almeida",
+        "email": "tereza@teste.com.br",
+        "senha": "123"
+    }
+]
